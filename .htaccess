@@ -1,0 +1,15 @@
+#AuthUserFile /home/dls/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "Please enter your ID and password"
+#AuthType Basic
+#require valid-user
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   #RewriteBase /
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+
+
+
+</IfModule>

@@ -1,0 +1,10 @@
+{
+  "name": "FundeeScratch",
+  "require": {
+    "facebook/graph-sdk" : "~5.0",
+    "stripe/stripe-php": "^6.6"
+  },
+  "config": {
+    "vendor-dir": "app/Vendor/"
+  }
+}
