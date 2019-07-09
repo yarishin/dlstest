@@ -21,7 +21,7 @@ create table attachments
   created           datetime                     not null,
   modified          datetime                     not null
 )
-  comment '画像アップロード用' engine = MyISAM;
+  comment '画像アップロード用です' engine = MyISAM;
 
 create table backed_projects
 (
