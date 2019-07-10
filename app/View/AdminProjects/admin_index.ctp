@@ -9,7 +9,7 @@
 </div>
 <?php
 //print "<pre>";
-print_r ($projects);
+//print_r ($projects);
 //print "</pre>";
 ?>
 <?php echo $this->element('admin/setting_project_main_menu', array('mode' => 'index')) ?>
