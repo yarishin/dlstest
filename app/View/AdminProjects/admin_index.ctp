@@ -8,9 +8,9 @@
     <h2>プロジェクト一覧</h2>
 </div>
 <?php
-//print "<pre>";
-//print_r ($projects);
-//print "</pre>";
+print "<pre>";
+print_r ($projects);
+print "</pre>";
 ?>
 <?php echo $this->element('admin/setting_project_main_menu', array('mode' => 'index')) ?>
 
