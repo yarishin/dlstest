@@ -12,6 +12,7 @@
 
     <?php echo $this->Html->css('/bootstrap/css/bootstrap.min')."\n" ?>
     <?php echo $this->Html->css('admin/common') ?>
+    <?php echo $this->Html->css('admin/table') ?>
     <?php echo $this->Html->css('/bootstrap/css/elusive-webfont') ?>
     <?php echo $this->fetch('css')."\n" ?>
 </head>

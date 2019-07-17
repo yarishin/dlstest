@@ -2,8 +2,7 @@
 .grid_wrap {
     width: 100%;
     max-width: 410px;
- 
-    padding: 5px;
+     padding: 5px;
     margin: 0 auto;
     position: relative;
 }
@@ -11,19 +10,17 @@
 .grid {
     max-width: 100%;
     position: relative;
-
 }
 
 .grid a.btn,
 .grid a.btn:hover,
 .grid_string .grid_title a,
 .grid_string .grid_title a:hover {
-    color: #333;
+    color: #fff;
 }
 
 .grid .imgholder img {
     max-width:100%;
-  
 }
 
 .grid_footer {
@@ -41,18 +38,13 @@
 }
 
 .grid_string {
-    position: relative;
+    position: absolute;
     bottom: 0;
-    background: linear-gradient(#ffffff 20%, #efefef);
-   /* background: rgba(255, 255, 255, 1);*/
+    background: rgba(0, 0, 0, .5);
     width: 100%;
-    color: #333;
+    color: #fff;
     padding: 0;
     margin: 0;
-    max-height:100px;
-
-
-
 }
 
 .grid_string .left {
@@ -63,29 +55,18 @@
 .grid_string .right {
     float: right;
     padding-right: 5px;
-
 }
-
-.test{
- 
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-     }
-
 
 /****** graph ******/
 .grid .progress {
     margin-bottom: 0px;
-    height: 13px;
-    background: rgba(0, 0, 0, 0.1);
+    height: 9px;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .grid .progress-bar {
-     color:#000;
-    /*color: transparent;*/
+       color: transparent;
     line-height: 10px;
-
 }
 
 /****** success ******/
@@ -96,7 +77,7 @@
     width: 80%;
     margin-left: -40%;
     padding: 4px 0;
-    background: rgba(0, 0, 255, 0.8);
+    background: rgba(21, 188, 197, 0.5);
     color: #fff;
     font-weight: bold;
     text-align: center;
@@ -128,18 +109,6 @@
 
     .grid, .grid_wrap {
         width: 410px;
-        float: left;}
-
-
-.size{
-      max-width:80%;
-      margin:0 auto;
-     }
-
-
-    
+        float: left;
+        }
 }
-
-
-
-

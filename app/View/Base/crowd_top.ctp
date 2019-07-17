@@ -8,7 +8,6 @@
 <meta property="og:description" content="<?php echo h($setting['site_description']) ?>"/>
 <?php $this->end() ?>
 
-
 <?php echo $this->Html->css('top', null, array('inline' => false)) ?>
 <?php echo $this->Html->css('grid', null, array('inline' => false)) ?>
 <?php echo $this->Html->css('grid_report', null, array('inline' => false)) ?>
@@ -19,7 +18,6 @@
 <?php endif ?>
 
 <div class="toppage">
- 
     <div class="top_box">
         <div class="content1">
             <?php $this->Setting->display_content($setting, 1); ?>
@@ -53,9 +51,7 @@ EOM;
 
 
     <h3 class="pickup"><span class="el-icon-th"></span> スタッフオススメ</h3>
-   
-    <div id="grid_container" class="clearfix">
-
+     <div id="grid_container" class="clearfix">
         <?php foreach($projects as $idx => $project): ?>
        <?php if(isset($project['Project'])): ?>
                 <?php echo $this->element('project_box/project_box_for_normal', compact('project')) ?>
@@ -63,36 +59,24 @@ EOM;
         <?php endforeach; ?>
    </div>
 
- 
-
-
     <?php if(!empty($reports)): ?>
-                              
         <div class="reports">
-
             <h3 class="report"><span class="el-icon-bullhorn"></span> 活動報告</h3>
 
             <div id="grid_container_report" class="clearfix">
-  
                 <?php foreach($reports as $report): ?>
-
                     <div class="grid_wrap_report">
-
                         <?php echo $this->element('report_box/report_box_opened', array('report' => $report)) ?>
                        </div>
-                   
                 <?php endforeach; ?>
 </div>
      </div>   
- 
-  
     <?php else: ?>
         <br><br>
     <?php endif; ?>
 
-
     <?php //echo $this->element('base/social_btn')?>
-
+</div>
 
 <?php $this->start('script') ?>
 <script>
@@ -137,5 +121,3 @@ EOM;
     }
 </script>
 <?php $this->end() ?>
-</div>
-

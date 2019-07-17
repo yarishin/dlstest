@@ -51,17 +51,17 @@
 
 .btn-success,
 .label-success {
-    border-color: #a00;
-    background-color: #a00;
+    border-color: #090;
+    background-color: #090;
 }
 
 .btn-success {
-    box-shadow: 0 4px 0 #a00;
+    box-shadow: 0 4px 0 #040;
 }
 
 .btn-success:hover {
-    background: #a00;
-    border-color: #a00;
+    background: #0a0;
+    border-color: #0a0;
 }
 
 .btn-primary,
@@ -145,14 +145,12 @@
 
 /************* html body *******************/
 html {
-    
     height: 100%;
     min-height: 100%;
 }
 
 /************* body *******************/
 body {
-    
     height: 100%;
     min-height: 100%;
     font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, "メイリオ", 'ＭＳ Ｐゴシック', 'ＭＳ ゴシック', sans-serif;
@@ -543,11 +541,6 @@ h4 {
 #back_top img:hover {
     opacity: 1;
 }
-
-
-
-
-
 
 @media screen and (max-width: 750px) {
     #back_top {
